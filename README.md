@@ -82,8 +82,8 @@ CyrTranslit currently supports bi-directional transliteration of Bulgarian, Mont
 ```python
 >>> import cyrtranslit
 >>> cyrtranslit.to_latin("Під лежачий камінь вода не тече", "ua")
-"Pid ležačyj kamin' voda ne teče"
->>> cyrtranslit.to_cyrillic("Pid ležačyj kamin' voda ne teče", "ua")
+"Pid lezhachyj kamin' voda ne teche"
+>>> cyrtranslit.to_cyrillic("Pid lezhachyj kamin' voda ne teche", "ua")
 "Під лежачий камінь вода не тече"
 ```
 
